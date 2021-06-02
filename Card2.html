@@ -12,17 +12,13 @@
 <body> 
  
 <div class="container">
-  <h2>Card Deck</h2>
-  <p>The .card-deck class creates an <strong>equal height and width</strong> grid of cards. The layout will automatically adjust as you insert more cards.</p>
-  
-  
-  <div class="card">
+  <h2>Cards Columns</h2>
+  <p>The .card-columns class creates a masonry-like grid of cards. The layout will automatically adjust as you insert more cards.</p>
+  <p><strong>Note:</strong> The cards are displayed vertically on small screens (less than 576px):</p>
+  <div class="card-columns">
     <div class="card bg-primary">
       <div class="card-body text-center">
         <p class="card-text">Some text inside the first card</p>
-        <p class="card-text">Some more text to increase the height</p>
-        <p class="card-text">Some more text to increase the height</p>
-        <p class="card-text">Some more text to increase the height</p>
       </div>
     </div>
     <div class="card bg-warning">
@@ -40,8 +36,27 @@
         <p class="card-text">Some text inside the fourth card</p>
       </div>
     </div>  
+    <div class="card bg-light">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the fifth card</p>
+      </div>
+    </div>
+    <div class="card bg-info">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the sixth card</p>
+      </div>
+    </div>
   </div>
 </div>
-
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Link 1</a>
+    <a class="dropdown-item" href="#">Link 2</a>
+    <a class="dropdown-item" href="#">Link 3</a>
+  </div>
+</div>
 </body>
 </html>
